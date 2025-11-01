@@ -33,15 +33,20 @@ a {
     box-sizing: border-box;
 }
 
+.section {
+    padding: 120px 0;
+}
+/*header*/
 .header-block {
     background-color: #ffffff;
     border-bottom: 1px solid #E7E9FC;
-
 }
 
 .header-container {
     display: flex;
     align-items: center;
+    box-sizing: border-box;
+    height: 72px;
 }
 
 .header-nav {
@@ -120,9 +125,10 @@ a {
     font-style: normal;
     margin-left: auto;
 }
-
+/*section1*/
 .gaslo {
     background-color: #2e2f42;
+    text-align: center;
 }
 
 .title-gaslo {
@@ -143,6 +149,7 @@ a {
     background-color: #4d5ae5;
     cursor: pointer;
     line-height: 1.5;
+    text-align: center;
 }
 
 .button-tab:hover,
@@ -151,6 +158,32 @@ a {
     background-color: #404bbf;
 }
 
+.gaslo-container {
+    display: block;
+    align-items: center;
+    height: 600px;
+    display: block;
+}
+
+.container-title-gaslo {
+    width: 496px;
+    height: 120px;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+}
+
+.container-button-tab {
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0;
+    margin-bottom: 188px;
+}
+/*section2*/
 .studio-criterion {
     font-size: 20px;
     line-height: 1.2;
@@ -170,6 +203,20 @@ a {
 .visually-hidden {
     visibility: hidden;
 }
+
+.studio-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect (0 0 0 0);
+    overflow: hidden;
+}
+
 
 .team-comands {
     background-color: #f4f4fd;
