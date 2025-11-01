@@ -126,11 +126,6 @@ a {
     margin-left: auto;
 }
 /*section1*/
-.gaslo {
-    background-color: #2e2f42;
-    text-align: center;
-}
-
 .title-gaslo {
     font-size: 56px;
     line-height: 1.07;
@@ -158,30 +153,28 @@ a {
     background-color: #404bbf;
 }
 
+.gaslo {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+
 .gaslo-container {
-    display: block;
-    align-items: center;
-    height: 600px;
-    display: block;
+    text-align: center;
 }
 
 .container-title-gaslo {
-    width: 496px;
-    height: 120px;
-    padding-top: 188px;
-    padding-bottom: 292px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 48px;
+    max-width: 496px;
+    margin: 0 auto 48px;
 }
 
 .container-button-tab {
-    width: 169px;
+    display: block;
+    min-width: 169px;
     height: 56px;
+    border: none;
     border-radius: 4px;
-    padding: 16px 32px;
-    box-shadow: 0 4px 4px 0;
-    margin-bottom: 188px;
+    margin: 0 auto;
+    border: none;
 }
 /*section2*/
 .studio-criterion {
@@ -190,8 +183,8 @@ a {
     letter-spacing: 0.02em;
     font-weight: 500;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
-
 
 .studio-criterion-descrip {
     font-size: 16px;
@@ -201,10 +194,6 @@ a {
 }
 
 .visually-hidden {
-    visibility: hidden;
-}
-
-.studio-visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -218,6 +207,27 @@ a {
 }
 
 
+
+.section-values {
+    display: flex;
+    align-items: center;
+}
+
+.section-spysok {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+    
+}
+
+.section-spysok-element {
+    max-width: 264px;
+    width: calc((100% - 72px) / 4);
+}
+/*section3*/
 .team-comands {
     background-color: #f4f4fd;
 }
@@ -229,10 +239,13 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team-clast {
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
 .team-card-name {
@@ -241,6 +254,8 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin: 32px 0 8px;
 }
 
 .team-card-parag {
@@ -248,8 +263,28 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
+    white-space: wrap;
 }
 
+.team-comands-spysok {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+}
+
+.container-team-name {
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+/*siction*/
 .portfolio-part {
     font-size: 36px;
     line-height: 1.11;
