@@ -267,12 +267,20 @@ a {
 .team-comands-list {
     display: flex;
     gap: 24px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
-.team-card {
+.team-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-item {
+    text-align: center;
+    margin-bottom: 8px;
     padding: 32px 0;
 }
+
 /*siction4*/
 .portfolio-part {
     font-size: 36px;
@@ -301,7 +309,7 @@ a {
     margin-bottom: 8px
 }
 
-.portfolio-row {
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
